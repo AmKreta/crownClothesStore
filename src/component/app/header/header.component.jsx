@@ -7,9 +7,6 @@ import StoreIcon from '@material-ui/icons/Store';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 //import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 
-//importing logo
-import logo from './crown.svg';
-
 //importing custom components
 import Cart from './cartItems/cartItems.component';
 import Profile from './profile/profile.component';

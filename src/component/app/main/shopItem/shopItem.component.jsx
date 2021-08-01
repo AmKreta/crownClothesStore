@@ -29,7 +29,7 @@ const ShopItem = ({ match }) => {
     const shopItem = useMemo(() => {
         const item = match?.params?.item;
         return shopData.find(data => data?.title?.toLowerCase() === item?.toLowerCase());
-    }, [match]);
+    }, [match, shopData]);
 
     const addItemToCart = useCallback((e) => {
         const { name, imageUrl, price } = shopItem.items[parseInt(e.currentTarget.id)];

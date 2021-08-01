@@ -8,7 +8,6 @@ import clsx from 'clsx';
 import ShopData from '../../../../assetsPath/shop.data';
 
 //importing reusable components
-import ItemCard from '../../../../reusableComponents/itemcard/itemCard.component';
 import CollectionOverview from '../../../../reusableComponents/collectionOverview/collectionOverview.component';
 
 //importing redux actions
